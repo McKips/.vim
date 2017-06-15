@@ -52,7 +52,12 @@ package https://github.com/tomasr/molokai.git &
 package https://github.com/altercation/vim-colors-solarized.git &
 wait
 ) &
-
+(
+set_group trackChanges
+package https://github.com/tpope/vim-fugitive.git &
+package https://github.com/airblade/vim-gitgutter &
+wait
+) &
 (
 set_group navigation
 package https://github.com/christoomey/vim-tmux-navigator.git &
