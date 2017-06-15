@@ -42,7 +42,6 @@ package https://github.com/Valloric/YouCompleteMe.git &
 package https://github.com/vim-syntastic/syntastic.git &
 package https://github.com/tpope/vim-surround.git &
 package https://github.com/Raimondi/delimitMate.git &
-package https://github.com/artur-shaik/vim-javacomplete2.git &
 wait
 ) &
 
@@ -52,12 +51,14 @@ package https://github.com/tomasr/molokai.git &
 package https://github.com/altercation/vim-colors-solarized.git &
 wait
 ) &
+
 (
 set_group trackChanges
 package https://github.com/tpope/vim-fugitive.git &
 package https://github.com/airblade/vim-gitgutter &
 wait
 ) &
+
 (
 set_group navigation
 package https://github.com/christoomey/vim-tmux-navigator.git &
