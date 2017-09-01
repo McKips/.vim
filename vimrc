@@ -5,8 +5,7 @@ filetype plugin indent on
 " GUI options {{{
 set number
 syntax enable
-colorscheme solarized
-set background=dark
+colorscheme molokai 
 set laststatus=2
 
 " Set sensible colors.
