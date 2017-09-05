@@ -39,6 +39,7 @@ set_group syntax
 package https://github.com/vim-airline/vim-airline.git &
 package https://github.com/vim-airline/vim-airline-themes.git &
 #package https://github.com/Valloric/YouCompleteMe.git &
+package https://github.com/ajh17/VimCompletesMe.git &
 package https://github.com/vim-syntastic/syntastic.git &
 package https://github.com/tpope/vim-surround.git &
 package https://github.com/Raimondi/delimitMate.git &
