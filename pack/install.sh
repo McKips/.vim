@@ -38,9 +38,9 @@ function package() {
 set_group syntax
 package https://github.com/vim-airline/vim-airline.git &
 package https://github.com/vim-airline/vim-airline-themes.git &
-#package https://github.com/Valloric/YouCompleteMe.git &
 package https://github.com/ajh17/VimCompletesMe.git &
-package https://github.com/vim-syntastic/syntastic.git &
+package https://github.com/Rip-Rip/clang_complete.git & 
+package https://github.com/w0rp/ale.git &
 package https://github.com/tpope/vim-surround.git &
 package https://github.com/Raimondi/delimitMate.git &
 wait
@@ -56,7 +56,8 @@ wait
 (
 set_group trackChanges
 package https://github.com/tpope/vim-fugitive.git &
-package https://github.com/airblade/vim-gitgutter &
+package https://github.com/airblade/vim-gitgutter.git &
+package https://github.com/vim-scripts/vim-auto-save.git &
 wait
 ) &
 

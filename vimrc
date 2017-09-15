@@ -5,7 +5,8 @@ filetype plugin indent on
 " GUI options {{{
 set number
 syntax enable
-colorscheme molokai 
+set background=dark
+colorscheme solarized 
 set laststatus=2
 
 " Set sensible colors.
@@ -107,7 +108,6 @@ nnoremap gv `[v`]
 inoremap jk <ESC>
 nnoremap ,s :mksession<CR>
 noremap K;SuperMan <word><CR>
-nnoremap ,e :SyntasticCheck<CR>
 set mouse=a
 " }}}
 
@@ -126,9 +126,6 @@ let g:syntastic_aggregate_errors=1
 let delimitMate_expand_cr=1
 let g:ycm_autoclose_preview_window_after_completion=1
 let g:ycm_show_diagnostics_ui=0
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
 " }}}
 
 " Nerdtree mapping {{{ 
