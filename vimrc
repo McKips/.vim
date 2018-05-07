@@ -6,7 +6,7 @@ filetype plugin indent on
 set number
 syntax enable
 set background=dark
-colorscheme solarized 
+colorscheme molokai 
 set laststatus=2
 
 " Set sensible colors.
