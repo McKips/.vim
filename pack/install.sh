@@ -10,6 +10,7 @@
 function set_group() {
 	package_group=$1
 	path="$HOME/.vim/pack/$package_group/start"
+  mkdir -p "$HOME/.vim/swp-files"
 	mkdir -p "$path"
 	cd "$path" || exit
 }
